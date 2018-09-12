@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+ipython = {version = "*", extras = ["notebook"]}
+cryptography = "*"
+requests = "*"
+tabulate = "*"
+colorama = ">=0.3.8"
+future = "*"
+"h2o" = "*"
+"h5py" = "*"
+tables = "*"
+openpyxl = "*"
+xlsxwriter = "*"
+xlrd = "*"
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.7"
