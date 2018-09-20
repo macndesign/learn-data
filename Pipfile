@@ -19,6 +19,9 @@ tables = "*"
 openpyxl = "*"
 xlsxwriter = "*"
 xlrd = "*"
+mlxtend = "*"
+seaborn = "*"
+nba-api = "*"
 
 [dev-packages]
 pylint = "*"
